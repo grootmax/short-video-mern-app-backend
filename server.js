@@ -5,7 +5,7 @@ import Videos from './dbModel.js'
 //App Config
 const app = express()
 const port = process.env.PORT || 9000
-const connection_url = 'mongodb+srv://groot:wnGEJYibx2ZLMVB@cluster0.uhpiq.mongodb.net/short-video-mern?retryWrites=true&w=majority'
+const connection_url = ''
 //Middleware
 app.use(express.json())
 app.use(Cors())
